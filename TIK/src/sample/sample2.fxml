@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller2">
+   <children><Button id="5" fx:id="start" layoutX="482.0" layoutY="432.0" mnemonicParsing="false" text="далі" />
+      <Label layoutX="14.0" layoutY="14.0" text="V1" />
+      <Label layoutX="97.0" layoutY="14.0" text="V2" />
+      <Label layoutX="186.0" layoutY="14.0" text="V3" />
+      <Label layoutX="276.0" layoutY="14.0" text="V4" />
+      <Label layoutX="366.0" layoutY="14.0" text="V5" />
+      <Label layoutX="455.0" layoutY="14.0" text="V6" />
+      <TextField fx:id="v6" layoutX="475.0" layoutY="10.0" prefHeight="25.0" prefWidth="59.0" />
+      <TextField fx:id="v3" layoutX="207.0" layoutY="10.0" prefHeight="25.0" prefWidth="59.0" />
+      <TextField fx:id="v2" layoutX="117.0" layoutY="10.0" prefHeight="25.0" prefWidth="59.0" />
+      <TextField fx:id="v1" layoutX="28.0" layoutY="10.0" prefHeight="25.0" prefWidth="59.0" />
+      <TextField fx:id="v4" layoutX="296.0" layoutY="10.0" prefHeight="25.0" prefWidth="59.0" />
+      <TextField fx:id="v5" layoutX="386.0" layoutY="10.0" prefHeight="25.0" prefWidth="59.0" />
+   </children>
+</AnchorPane>

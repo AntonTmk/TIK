@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="np4" prefHeight="621.0" prefWidth="543.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+      <TableView fx:id="viv" layoutX="5.0" prefHeight="169.0" prefWidth="380.0">
+        <columns>
+          <TableColumn fx:id="vvv" prefWidth="54.0" text="v" />
+          <TableColumn fx:id="vvv1" prefWidth="54.0" text="v1" />
+            <TableColumn fx:id="vvv2" prefWidth="54.0" text="v2" />
+            <TableColumn fx:id="vvv3" prefWidth="54.0" text="v3" />
+            <TableColumn fx:id="vvv4" prefWidth="54.0" text="v4" />
+            <TableColumn fx:id="vvv5" prefWidth="54.0" text="v5" />
+            <TableColumn fx:id="vvv6" prefWidth="54.0" text="v6" />
+        </columns>
+      </TableView>
+      <Label fx:id="np0" layoutX="385.0" layoutY="6.0" text="np1">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="np1" layoutX="385.0" layoutY="34.0" text="np2">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="np2" layoutX="385.0" layoutY="64.0" text="np3">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="np3" layoutX="385.0" layoutY="91.0" text="np4">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="np4" layoutX="385.0" layoutY="120.0" text="np5">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="np5" layoutX="385.0" layoutY="146.0" text="np6">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Button id="exit" fx:id="exit" layoutX="460.0" layoutY="586.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="69.0" text="Вихід" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c9c9c9" height="2.0" layoutX="-3.0" layoutY="169.0" stroke="TRANSPARENT" strokeType="INSIDE" width="546.0" />
+      <Text layoutX="10.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="С =" wrappingWidth="43.4296875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="21.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" />
+      <Text layoutX="20.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5" />
+      <Line endX="36.4296875" layoutX="47.0" layoutY="188.0" startX="-6.5" />
+      <Text layoutX="55.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5!" wrappingWidth="13.429693937301636" />
+      <Text layoutX="40.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0*(5-0)!" wrappingWidth="43.429693937301636" />
+      <Text layoutX="83.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Line endX="61.4296875" endY="1.0" layoutX="102.0" layoutY="188.0" startX="-6.5" />
+      <Text layoutX="100.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1*2*3*4*5" wrappingWidth="57.99999690055847" />
+      <Text layoutX="95.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1*1*2*3*4*5" wrappingWidth="68.42969393730164" />
+      <Text layoutX="164.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Label fx:id="c0" layoutX="176.0" layoutY="181.0" text="Label" />
+      <Text layoutX="6.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="С =" wrappingWidth="43.4296875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Line endX="36.4296875" layoutX="43.0" layoutY="256.0" startX="-6.5" />
+      <Text layoutX="51.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5!" wrappingWidth="13.429693937301636" />
+      <Text layoutX="36.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1*(5-1)!" wrappingWidth="43.429693937301636" />
+      <Text layoutX="79.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Line endX="50.0" layoutX="98.0" layoutY="256.0" startX="-6.5" />
+      <Text layoutX="96.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1*2*3*4*5" wrappingWidth="57.99999690055847" />
+      <Text layoutX="94.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1*1*2*3*4" wrappingWidth="68.42969393730164" />
+      <Text layoutX="150.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Label fx:id="c1" layoutX="162.0" layoutY="247.0" text="Label" />
+      <Text layoutX="18.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" />
+      <Text layoutX="17.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5" />
+      <Text layoutX="8.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="K    (0)=">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="18.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="н.n." />
+      <Label fx:id="knn0" layoutX="125.0" layoutY="210.0" text="Label" />
+      <Text layoutX="7.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="K    (1)=">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="17.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="н.n." />
+      <Label fx:id="knn1" layoutX="132.0" layoutY="275.0" text="Label" />
+      <Label fx:id="ck0" layoutX="215.0" layoutY="198.0" text="(C-K)*100%" />
+      <Label fx:id="ck1" layoutX="215.0" layoutY="267.0" text="(C-K)*100%" />
+      <Text layoutX="10.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="С =" wrappingWidth="43.4296875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="21.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" />
+      <Text layoutX="20.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5" />
+      <Line endX="36.4296875" layoutX="47.0" layoutY="325.0" startX="-6.5" />
+      <Text layoutX="55.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5!" wrappingWidth="13.429693937301636" />
+      <Text layoutX="40.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0*(5-0)!" wrappingWidth="43.429693937301636" />
+      <Text layoutX="83.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Line endX="61.4296875" endY="1.0" layoutX="102.0" layoutY="325.0" startX="-6.5" />
+      <Text layoutX="100.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1*2*3*4*5" wrappingWidth="57.99999690055847" />
+      <Text layoutX="95.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1*2*1*2*3" wrappingWidth="68.42969393730164" />
+      <Text layoutX="164.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Label fx:id="c2" layoutX="176.0" layoutY="318.0" text="Label" />
+      <Text layoutX="6.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="С =" wrappingWidth="43.4296875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Line endX="36.4296875" layoutX="43.0" layoutY="393.0" startX="-6.5" />
+      <Text layoutX="51.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5!" wrappingWidth="13.429693937301636" />
+      <Text layoutX="36.0" layoutY="407.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1*(5-1)!" wrappingWidth="43.429693937301636" />
+      <Text layoutX="79.0" layoutY="399.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Line endX="50.0" layoutX="98.0" layoutY="393.0" startX="-6.5" />
+      <Text layoutX="96.0" layoutY="388.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1*2*3*4*5" wrappingWidth="57.99999690055847" />
+      <Text layoutX="94.0" layoutY="407.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1*2*3*1*2" wrappingWidth="68.42969393730164" />
+      <Text layoutX="150.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Label fx:id="c3" layoutX="162.0" layoutY="384.0" text="Label" />
+      <Text layoutX="18.0" layoutY="388.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" />
+      <Text layoutX="17.0" layoutY="407.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5" />
+      <Text layoutX="8.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="K    (2)=">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="18.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="н.n." />
+      <Label fx:id="knn2" layoutX="125.0" layoutY="350.0" text="Label" />
+      <Text layoutX="7.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="K    (3)=">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="17.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="н.n." />
+      <Label fx:id="knn3" layoutX="128.0" layoutY="413.0" text="Label" />
+      <Label fx:id="ck2" layoutX="215.0" layoutY="335.0" text="(C-K)*100%" />
+      <Label fx:id="ck3" layoutX="215.0" layoutY="404.0" text="(C-K)*100%" />
+      <Text layoutX="7.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" text="С =" wrappingWidth="43.4296875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="18.0" layoutY="445.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4" />
+      <Text layoutX="17.0" layoutY="464.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5" />
+      <Line endX="36.4296875" layoutX="44.0" layoutY="451.0" startX="-6.5" />
+      <Text layoutX="52.0" layoutY="445.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5!" wrappingWidth="13.429693937301636" />
+      <Text layoutX="37.0" layoutY="465.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0*(5-0)!" wrappingWidth="43.429693937301636" />
+      <Text layoutX="80.0" layoutY="457.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Line endX="61.4296875" endY="1.0" layoutX="99.0" layoutY="451.0" startX="-6.5" />
+      <Text layoutX="97.0" layoutY="446.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1*2*3*4*5" wrappingWidth="57.99999690055847" />
+      <Text layoutX="92.0" layoutY="465.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1*2*3*4*1" wrappingWidth="68.42969393730164" />
+      <Text layoutX="161.0" layoutY="458.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Label fx:id="c4" layoutX="173.0" layoutY="444.0" text="Label" />
+      <Text layoutX="3.0" layoutY="524.0" strokeType="OUTSIDE" strokeWidth="0.0" text="С =" wrappingWidth="43.4296875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Line endX="36.4296875" layoutX="40.0" layoutY="519.0" startX="-6.5" />
+      <Text layoutX="48.0" layoutY="513.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5!" wrappingWidth="13.429693937301636" />
+      <Text layoutX="33.0" layoutY="533.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1*(5-1)!" wrappingWidth="43.429693937301636" />
+      <Text layoutX="76.0" layoutY="525.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Line endX="50.0" layoutX="95.0" layoutY="519.0" startX="-6.5" />
+      <Text layoutX="93.0" layoutY="514.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1*2*3*4*5" wrappingWidth="57.99999690055847" />
+      <Text layoutX="91.0" layoutY="533.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1*2*3*4*5" wrappingWidth="68.42969393730164" />
+      <Text layoutX="147.0" layoutY="524.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Label fx:id="c5" layoutX="159.0" layoutY="510.0" text="Label" />
+      <Text layoutX="15.0" layoutY="514.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5" />
+      <Text layoutX="14.0" layoutY="533.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5" />
+      <Text layoutX="5.0" layoutY="489.0" strokeType="OUTSIDE" strokeWidth="0.0" text="K    (4)=">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="15.0" layoutY="489.0" strokeType="OUTSIDE" strokeWidth="0.0" text="н.n." />
+      <Label fx:id="knn4" layoutX="121.0" layoutY="476.0" text="Label" />
+      <Text layoutX="4.0" layoutY="551.0" strokeType="OUTSIDE" strokeWidth="0.0" text="K    (5)=">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="551.0" strokeType="OUTSIDE" strokeWidth="0.0" text="н.n." />
+      <Label fx:id="knn5" layoutX="115.0" layoutY="538.0" text="Label" />
+      <Label fx:id="ck4" layoutX="212.0" layoutY="461.0" text="(C-K)*100%" />
+      <Label fx:id="ck5" layoutX="212.0" layoutY="530.0" text="(C-K)*100%" />
+      <Line endX="1.71484375" layoutX="81.0" layoutY="219.0" startX="-6.5" />
+      <Text layoutX="76.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" wrappingWidth="13.429693937301636" />
+      <Text layoutX="75.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" wrappingWidth="13.429695725440979" />
+      <Text layoutX="108.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Line endX="1.71484375" layoutX="99.0" layoutY="218.0" startX="-6.5" />
+      <Label fx:id="np00" layoutX="92.0" layoutY="202.0" prefHeight="17.0" prefWidth="19.0" text="NP" />
+      <Label id="с0" fx:id="c00" layoutX="90.0" layoutY="219.0" text="Label" />
+      <Line endX="1.71484375" layoutX="78.0" layoutY="546.0" startX="-6.5" />
+      <Text layoutX="73.0" layoutY="542.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" wrappingWidth="13.429693937301636" />
+      <Text layoutX="72.0" layoutY="559.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" wrappingWidth="13.429695725440979" />
+      <Text layoutX="105.0" layoutY="552.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Line endX="1.71484375" layoutX="96.0" layoutY="545.0" startX="-6.5" />
+      <Label id="npint5" fx:id="np55" layoutX="89.0" layoutY="530.0" text="Label" />
+      <Label fx:id="c55" layoutX="88.0" layoutY="548.0" text="Label" />
+      <Line endX="1.71484375" layoutX="82.0" layoutY="483.0" startX="-6.5" />
+      <Text layoutX="77.0" layoutY="479.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" wrappingWidth="13.429693937301636" />
+      <Text layoutX="76.0" layoutY="496.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" wrappingWidth="13.429695725440979" />
+      <Text layoutX="109.0" layoutY="489.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Line endX="1.71484375" layoutX="100.0" layoutY="482.0" startX="-6.5" />
+      <Label id="npint5" fx:id="np44" layoutX="93.0" layoutY="467.0" text="Label" />
+      <Label fx:id="c44" layoutX="92.0" layoutY="485.0" text="Label" />
+      <Line endX="1.71484375" layoutX="83.0" layoutY="420.0" startX="-6.5" />
+      <Text layoutX="78.0" layoutY="416.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" wrappingWidth="13.429693937301636" />
+      <Text layoutX="77.0" layoutY="433.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" wrappingWidth="13.429695725440979" />
+      <Text layoutX="110.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Line endX="1.71484375" layoutX="101.0" layoutY="419.0" startX="-6.5" />
+      <Label id="npint5" fx:id="np33" layoutX="94.0" layoutY="404.0" text="Label" />
+      <Label fx:id="c33" layoutX="93.0" layoutY="422.0" text="Label" />
+      <Line endX="1.71484375" layoutX="86.0" layoutY="358.0" startX="-6.5" />
+      <Text layoutX="81.0" layoutY="354.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" wrappingWidth="13.429693937301636" />
+      <Text layoutX="80.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" wrappingWidth="13.429695725440979" />
+      <Text layoutX="113.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Line endX="1.71484375" layoutX="104.0" layoutY="357.0" startX="-6.5" />
+      <Label id="npint5" fx:id="np22" layoutX="97.0" layoutY="342.0" text="Label" />
+      <Label fx:id="c22" layoutX="96.0" layoutY="360.0" text="Label" />
+      <Line endX="1.71484375" layoutX="87.0" layoutY="283.0" startX="-6.5" />
+      <Text layoutX="82.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" wrappingWidth="13.429693937301636" />
+      <Text layoutX="81.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" wrappingWidth="13.429695725440979" />
+      <Text layoutX="114.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Line endX="1.71484375" layoutX="105.0" layoutY="282.0" startX="-6.5" />
+      <Label id="npint5" fx:id="np11" layoutX="98.0" layoutY="267.0" text="Label" />
+      <Label fx:id="c11" layoutX="97.0" layoutY="285.0" text="Label" />
+    </children>
+</AnchorPane>
